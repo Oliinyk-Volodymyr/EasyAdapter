@@ -1,4 +1,5 @@
 # EasyAdapter
+[![](https://jitpack.io/v/Denive/EasyAdapter.svg)](https://jitpack.io/#Denive/EasyAdapter)
 ### Create your recyclerview adapter in just 1 line
 
 - Reduce Boilerplate code to create adapter and holder.
