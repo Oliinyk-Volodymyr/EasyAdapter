@@ -1,9 +1,3 @@
-/*
- *  Created by Oliinyk Volodymyr on 29.05.18 13:55
- *  Copyright (c) 2018 . All rights reserved.
- *  Last modified 29.05.18 13:55
- */
-
 package com.shprot.easy.adapter;
 
 import android.content.Context;

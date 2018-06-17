@@ -1,19 +1,12 @@
-/*
- *  Created by Oliinyk Volodymyr on 29.05.18 14:45
- *  Copyright (c) 2018 . All rights reserved.
- *  Last modified 29.05.18 14:43
- */
-
-package com.shprot.example
+package example.shprot.com.easyadapter
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
-import com.shprot.easy.adapter.R
 import kotlinx.android.synthetic.main.activity_main.*
-
+import kotlinx.android.synthetic.main.item.view.*
 
 class MainActivity : AppCompatActivity() {
 

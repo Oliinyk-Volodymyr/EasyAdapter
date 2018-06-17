@@ -1,13 +1,7 @@
-/*
- *  Created by Oliinyk Volodymyr on 29.05.18 13:55
- *  Copyright (c) 2018 . All rights reserved.
- *  Last modified 29.05.18 13:55
- */
-
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.EasyAdapter'
-
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 27
@@ -15,7 +9,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 2
+        versionCode 4
         versionName "1.0.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -33,7 +27,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:recyclerview-v7:27.1.1'
 

@@ -1,10 +1,4 @@
-/*
- *  Created by Oliinyk Volodymyr on 29.05.18 14:45
- *  Copyright (c) 2018 . All rights reserved.
- *  Last modified 29.05.18 14:42
- */
-
-package com.shprot.example
+package example.shprot.com.easyadapter
 
 import org.junit.Test
 

@@ -4,7 +4,7 @@
  *  Last modified 29.05.18 14:43
  */
 
-package com.shprot.example
+package example.shprot.com.easyadapter
 
 import android.support.annotation.LayoutRes
 import com.shprot.easy.adapter.EasyAdapter

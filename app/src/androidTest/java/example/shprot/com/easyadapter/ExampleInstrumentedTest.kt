@@ -1,10 +1,4 @@
-/*
- *  Created by Oliinyk Volodymyr on 29.05.18 14:44
- *  Copyright (c) 2018 . All rights reserved.
- *  Last modified 29.05.18 14:42
- */
-
-package com.shprot.example
+package example.shprot.com.easyadapter
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -25,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.shprot.easy.adapter", appContext.packageName)
+        assertEquals("example.shprot.com.easyadapter", appContext.packageName)
     }
 }
