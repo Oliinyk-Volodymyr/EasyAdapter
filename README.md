@@ -20,7 +20,7 @@ Download
 * Add the dependency:
 ```groovy
   dependencies {
-    implementation 'com.github.Denive:EasyAdapter:1.0.0'
+    implementation 'com.github.Denive:EasyAdapter:1.0.2'
   }
 ```
 
